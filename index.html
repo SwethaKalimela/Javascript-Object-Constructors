@@ -1,0 +1,16 @@
+
+<script>
+function createObject(name, height){
+    this.name=name;
+    this.height=height;
+    this.aboutYourself=function(){
+        var msg=`"I am ${name}. I am ${height} height" `;
+        return msg;    
+    }
+ 
+}
+
+var me=new createObject("Swetha","5ft");
+console.log(me.aboutYourself());
+
+</script>
